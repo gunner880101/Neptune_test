@@ -40,7 +40,7 @@
 }
 
 .title {
-  margin: 0;
+  margin: 20 0;
   line-height: 1.15;
   font-size: 4rem;
 }
@@ -82,32 +82,40 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
-}
-
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
-}
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+  min-width: 300px;
+  min-height: 200px;
 }
 
 .logo {
   height: 1em;
   margin-left: 0.5rem;
 }
-
+.form_label{
+  display: block;
+  margin-bottom: 10px;
+}
+.form_input{
+  width:300px;
+}
+.form_icon{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;  
+}
+.form_btn{  
+  margin-top: 20px;
+  display:block;
+  text-align:center;
+  color:blue;
+}
+.form_btn:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.flex_between{
+  display:flex;
+  justify-content: space-between;
+}
 @media (max-width: 600px) {
   .grid {
     width: 100%;
